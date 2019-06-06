@@ -1322,3 +1322,97 @@ Processing by SearchesController#friends as HTML
 Redirected to https://foursquare.com/oauth2/authenticate?client_id=&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
 Filter chain halted as :authenticate_user rendered or redirected
 Completed 302 Found in 4ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-06-06 11:35:33 -0700
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 42ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-06-06 11:43:54 -0700
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (8.8ms)
+Completed 200 OK in 1572ms (Views: 1570.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/friends" for 127.0.0.1 at 2019-06-06 11:46:47 -0700
+Processing by SearchesController#friends as HTML
+Completed 500 Internal Server Error in 427ms (ActiveRecord: 0.0ms)
+
+NoMethodError (undefined method `[]' for nil:NilClass):
+  app/controllers/searches_controller.rb:38:in `friends'
+
+
+  Rendered /home/learn/.rvm/gems/ruby-2.3.6/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (15.6ms)
+  Rendered /home/learn/.rvm/gems/ruby-2.3.6/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (6.6ms)
+  Rendered /home/learn/.rvm/gems/ruby-2.3.6/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.3ms)
+  Rendered /home/learn/.rvm/gems/ruby-2.3.6/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (178.8ms)
+  Rendered /home/learn/.rvm/gems/ruby-2.3.6/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /home/learn/.rvm/gems/ruby-2.3.6/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (1.0ms)
+  Rendered /home/learn/.rvm/gems/ruby-2.3.6/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.9ms)
+  Rendered /home/learn/.rvm/gems/ruby-2.3.6/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.9ms)
+  Rendered /home/learn/.rvm/gems/ruby-2.3.6/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (248.1ms)
+  Rendered /home/learn/.rvm/gems/ruby-2.3.6/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/learn/.rvm/gems/ruby-2.3.6/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (2.3ms)
+  Rendered /home/learn/.rvm/gems/ruby-2.3.6/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (409.9ms)
+
+
+Started GET "/auth" for 127.0.0.1 at 2019-06-06 11:47:02 -0700
+Processing by SessionsController#create as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 239ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-06-06 11:47:02 -0700
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 104ms (Views: 103.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2019-06-06 11:49:54 -0700
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 6ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-06-06 11:59:03 -0700
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 6ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-06-06 12:00:26 -0700
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 8ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-06-06 12:01:41 -0700
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=BJMVWKEV1NU0HW21SEUC1AHG04HVPUYUNYMVPYEMJGUKNB0N&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 32ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=S13M5EZZIC4GYEVAPP4B43OS1RPPUKQOUSRPSKX40PVKK4IG" for 127.0.0.1 at 2019-06-06 12:01:49 -0700
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"S13M5EZZIC4GYEVAPP4B43OS1RPPUKQOUSRPSKX40PVKK4IG"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 423ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-06-06 12:01:50 -0700
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 857ms (Views: 852.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/friends" for 127.0.0.1 at 2019-06-06 12:02:27 -0700
+Processing by SearchesController#friends as HTML
+  Rendered searches/friends.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 429ms (Views: 62.7ms | ActiveRecord: 0.0ms)
